@@ -1,0 +1,100 @@
+/*#009689*/
+/*#f4645f*/
+/*ab0000*/
+/*font-family: Source Sans Pro,sans-serif;*/
+/*"Helvetica Neue",Helvetica,Arial,sans-serif*/
+body{
+    /*margin: 0px;*/
+    /*font-family: Cartoon, cursive;*/
+    /*font-family: Savannah, serif;*/
+    /*font-size: 1em;*/
+    /*background-color: red;*/
+    background-image : url(emoji.jpg);
+    background-repeat: repeat;
+    font: 150% "Adobe Caslon Pro","Georgia", "Times New Roman", serif;
+    color: grey;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+
+    border-color: silver;
+
+}
+ /*footer*/
+
+/*ul.fut a:hover{*/
+
+    /*background-color: #4ca8ff;*/
+
+/*}*/
+/*ul.fut i:hover{*/
+
+    /*color: white;*/
+
+/*}*/
+
+
+.navbar-toggle{
+    background-color: #373737;
+
+}
+.icon-bar{
+    background-color: #337ab7;
+}
+nav a{
+    color: white;
+}
+nav{
+    background-color: #337ab7;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+
+    background-color: white;
+}
+
+.nav>li>a:hover, .nav>li>a:active, .nav>li>a:focus{
+    
+    color: #337ab7;
+
+}
+
+.nav>li>a{
+    /*padding: 10px 50px;*/
+    padding-right: 30px;
+}
+div.navbar-header img{
+    /*background-color: #ddd;*/
+}
+
+
+div  a.nav-link{
+
+    
+    font-size: 17px;
+
+    line-height: 2em;
+
+}
+
+.fixed-top{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index:1030
+}
+
+/*mobile*/
+
+@media screen and (max-width: 680px) {
+
+    nav:hover{
+        background-color: #373737;
+        /*background-color: #ddd;*/
+    }
+    
+
+}
+
+
+
